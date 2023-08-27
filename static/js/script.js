@@ -13,10 +13,10 @@ var myChart = new Chart(ctx, {
             // Data Set 1
             {
                 //  Chart Label
-                label: "Officer Status",
+                label: "Total",
 
                 // Actual Data
-                data: [10, 8, 100, 85, 90, 10],
+                data: [0, 0, 0, 0, 0, 0],
 
                 // Background Color
                 backgroundColor: [
@@ -45,10 +45,10 @@ var myChart = new Chart(ctx, {
             // Data Set 2
             {
                 //  Chart Label
-                label: "Current Progress",
+                label: "Status",
 
                 // Actual Data
-                data: [0, 0, 60, 0, 0, 0],
+                data: [0, 0, 0, 0, 0, 0],
 
                 // Background Color
                 backgroundColor: [
@@ -67,12 +67,12 @@ var myChart = new Chart(ctx, {
     options: {
         // Set Responsiveness By Default Its True
         // When Its True Canvas Width Height won't work
-        responsive: false,
+        responsive: true,
 
         // Set Padding
         layout: {
             padding: {
-                left: 50,
+                left: 0,
                 right: 0,
                 top: 0,
                 bottom: 0,
@@ -101,7 +101,7 @@ var myChart = new Chart(ctx, {
         // Chart Title
         title: {
             display: true,
-            text: "Officer Data Chart",
+            text: "Officer Career status",
             position: "bottom",
             fontSize: 25,
             fontFamily: "Georgia",
@@ -112,7 +112,7 @@ var myChart = new Chart(ctx, {
         },
 
         animation: {
-            duration: 5000,
+            duration: 3000,
             easing: "easeInOutBounce",
         },
     },

@@ -152,7 +152,7 @@ var myChart = new Chart(ctx, {
         // Chart Title
         title: {
             display: true,
-            text: "Bhopal Crime Data Chart (2022)",
+            text: "Bhopal Crime Data Chart (2020)",
             position: "bottom",
             fontSize: 20,
             fontFamily: "Georgia",

@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div class="fixed-top bg-new">
         <!-- top bar -->
@@ -49,6 +49,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../views/crimeChart4.html">Crime Chart</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../views/structure.html">Structure</a>
@@ -126,13 +129,15 @@
 
 
     <!-- Right canvas (User Account) -->
-    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
         <div class="container">
             <img src="../static/img/icon/account.svg" class="white-icon" width="100px" alt="">
         </div>
         <div class="offcanvas-header text-white">
             <h5 class="offcanvas-title" id="offcanvasRightLabel">Account</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
         </div>
         <div class="offcanvas-header text-white">
             <h6 class="offcanvas-title" id="offcanvasRightLabel">ID</h6>
@@ -140,7 +145,7 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../views/user_deshboard.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="../views/user_deshboard.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../views/user_history.html">Your Data</a>
@@ -194,7 +199,8 @@
             <p class="lead mb-4 justify-text">Any police officer can easily check their availability and status on this
                 platform so that he remains aware and updated towards his work.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" onclick="window.location.href = '../views/progress.html';">Show status</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"
+                    onclick="window.location.href = '../views/progress.html';">Show status</button>
             </div>
         </div>
         <div class="overflow-hidden">
@@ -212,7 +218,8 @@
                 officers are active in any police station and how many are not active along with many more information.
             </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" onclick="window.location.href = '../views/map.html';">Show all police stations</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"
+                    onclick="window.location.href = '../views/map.html';">Show all police stations</button>
             </div>
         </div>
         <div class="overflow-hidden">
@@ -244,7 +251,8 @@
                 then he can give his feedback to us so that a good connection be maintained between our community and
                 user.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" onclick="window.location.href = '../views/feedback.html';">Feedback for any Query</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"
+                    onclick="window.location.href = '../views/feedback.html';">Feedback for any Query</button>
             </div>
         </div>
         <div class="overflow-hidden">
@@ -319,7 +327,7 @@
     </div>
 
     <!-- footer -->
-    <div class="bg-new">
+    <div class="bg-new mt-auto">
         <div class="container">
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
                 <div class="col mb-3">
@@ -337,18 +345,20 @@
                     <h5>Navbar</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="../views/user_deshboard.html"
-                                class="nav-link p-0 text-body-secondary fs-5">Home</a>
+                                class="nav-link p-0 text-white-50 fs-5">Home</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary fs-5">Service</a>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50 fs-5">Service</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="../views/crimeChart4.html"
+                                class="nav-link p-0 text-white-50 fs-5">Crime Chart</a>
                         </li>
                         <li class="nav-item mb-2"><a href="../views/structure.html"
-                                class="nav-link p-0 text-body-secondary fs-5">Structure</a>
+                                class="nav-link p-0 text-white-50 fs-5">Structure</a>
                         </li>
                         <li class="nav-item mb-2"><a href="../views/about.html"
-                                class="nav-link p-0 text-body-secondary fs-5">About us</a>
+                                class="nav-link p-0 text-white-50 fs-5">About us</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#contact"
-                                class="nav-link p-0 text-body-secondary fs-5">Contact
+                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-white-50 fs-5">Contact
                                 us</a>
                         </li>
                     </ul>
@@ -358,10 +368,10 @@
                     <h5>User</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="../views/feedback.html"
-                                class="nav-link p-0 text-body-secondary fs-5">Feedback</a>
+                                class="nav-link p-0 text-white-50 fs-5">Feedback</a>
                         </li>
                         <li class="nav-item mb-2"><a href="../views/helpline.html"
-                                class="nav-link p-0 text-body-secondary fs-5">Helpline</a>
+                                class="nav-link p-0 text-white-50 fs-5">Helpline</a>
                         </li>
                     </ul>
                 </div>
@@ -369,18 +379,17 @@
                 <div class="col mb-3">
                     <h5>Community</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../views/admin.html"
-                                class="nav-link p-0 text-body-secondary fs-5" data-bs-toggle="modal"
-                                data-bs-target="#adminloginModal">Admin Section</a>
+                        <li class="nav-item mb-2"><a href="../views/admin.html" class="nav-link p-0 text-white-50 fs-5"
+                                data-bs-toggle="modal" data-bs-target="#adminloginModal">Admin Section</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#community" class="nav-link p-0 text-body-secondary fs-5">Our
+                        <li class="nav-item mb-2"><a href="#community" class="nav-link p-0 text-white-50 fs-5">Our
                                 community</a>
                         </li>
                         <li class="nav-item mb-2"><a href="../views/who_is_who.html"
-                                class="nav-link p-0 text-body-secondary fs-5">Our
+                                class="nav-link p-0 text-white-50 fs-5">Our
                                 candidates</a></li>
                         <li class="nav-item mb-2"><a href="../views/user_history.html"
-                                class="nav-link p-0 text-body-secondary fs-5">History</a>
+                                class="nav-link p-0 text-white-50 fs-5">History</a>
                         </li>
                     </ul>
                 </div>
