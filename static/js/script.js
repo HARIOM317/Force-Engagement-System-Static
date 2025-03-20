@@ -67,7 +67,7 @@ var myChart = new Chart(ctx, {
     options: {
         // Set Responsiveness By Default Its True
         // When Its True Canvas Width Height won't work
-        responsive: true,
+        responsive: false,
 
         // Set Padding
         layout: {
