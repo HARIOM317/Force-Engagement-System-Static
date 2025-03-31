@@ -94,6 +94,10 @@ For significant changes, please open an issue first to discuss the modifications
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
+
+## 📞 Contact
+🔗 **Connect with me:** [GitHub](https://github.com/HARIOM317) | [LinkedIn](https://linkedin.com/in/hariom-singh-mewada) | [Portfolio](https://hariom317.github.io/Hariom-Singh-Rajput-Portfolio/)
 
