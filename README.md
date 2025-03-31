@@ -2,6 +2,11 @@
 
 Welcome to the **Static Version** of the Police Force Engagement Website. This version is designed with a clean, responsive interface using only HTML, CSS, and JavaScript. It serves as a visual prototype to demonstrate layout, styling, and basic interactivity without backend integration.
 
+
+<P align="center">
+   <img src="https://github.com/user-attachments/assets/e543410e-d119-429d-8392-fa75b831b99d" alt="police force engagement" />
+</P>
+
 ---
 
 ## 🚀 Overview
