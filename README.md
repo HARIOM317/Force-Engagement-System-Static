@@ -46,20 +46,12 @@ Ensure you have Node.js installed, then run:
     npm install
     ```
     
-3. Configure Environment Variables:
-Create a .env file in the root directory and add your configurations:
-    ```
-    PORT=3000
-    DATABASE_URL=your_database_url_here
-    SECRET_KEY=your_secret_key_here
-    ```
-
-4. Start the Application:
+3. Start the Application:
      ```
      npm start
      ```
 
-5. Access the Website:
+4. Access the Website:
 Open your browser and navigate to http://localhost:3000
 
 ---
